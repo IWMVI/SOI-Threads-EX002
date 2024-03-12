@@ -22,6 +22,6 @@ public class Principal {
 
 		System.out.println();
 		Thread t = new ThreadController(matriz);
-		t.run();
+		t.start();
 	}
 }
